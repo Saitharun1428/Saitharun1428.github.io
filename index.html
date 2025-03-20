@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Portfolio</div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/portpic.JPG" alt="Professional Photo" class="hero-image">
+            <h1>Sai Tharun G</h1>
+            <p class="subtitle">Backend developer with a working knowledge of frontend technologies </p>
+            <p class="intro">Crafting digital experiences with code and creativity</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Dedicated and detail-oriented junior developer with strong backend skills in Java and a solid understanding of frontend principles, eager to bring innovative ideas to life and solve Real-Life problems.</p>
+
+                <p>I believe in continuous learning and staying updated with the latest technologies while maintaining a strong foundation in software development principles.</p>
+            </div>
+            <div class="tech-stack">
+                <h3>Tech Stack</h3>
+                <div class="tech-items">
+                    <span class="tech-item">Core Java</span>
+                    <span class="tech-item">oops</span>
+                    <span class="tech-item">JDBC</span>
+                    <span class="tech-item">JSP</span>
+                    <span class="tech-item">Servlet</span>
+                    <span class="tech-item">SQL</span>
+                    <span class="tech-item">HTML</span>
+                    <span class="tech-item">CSS</span>
+                    <span class="tech-item">JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Bitcoin Price Prediction">
+                <h3>Bitcoin Price Prediction Using Machine Learning</h3>
+                <p>This project focuses on developing a predictive model for Bitcoin price using Random Forest Regression, leveraging historical price data from Yahoo Finance and the computational resources of Google Colab.</p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Google Colab</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Saitharun1428" class="project-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800" alt="Food Delivery Web Application">
+                <h3>Food Delivery Web Application</h3>
+                <p>This project is developed in Java and added functionalities like registering the new user, login, display restaurants, view menu, add to cart, checkout.</p>
+                <div class="project-tech">
+                    <span>Java</span>
+                    <span>MySQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Saitharun1428/FoodRocket" class="project-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%">HTML/CSS</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 25%">JavaScript</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%">Java</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Database</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%">MySQL</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <div class="resume-content">
+            <div class="resume-section">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>Bachelors in Computer Science and engineering </h4>
+                    <p>visvesvaraya Technological University</p>
+                    <p>Rao Bahadur Y Mahabaleshwarappa Engineering College</p>
+                    <p class="date">2020-2024</p>
+                    <p>CGPA :7.07</p>
+                </div>
+            </div>
+            <div class="resume-section">
+                <h3>Experience</h3>
+                <div class="resume-item">
+                    <h4>Fresher</h4>
+                    <p>Completed Java Full Stack Development course from TAP Academy</p>
+                    <p class="date">2024-2025</p>
+                </div>
+            </div>
+            <a href="assets/resume/sai_resume1.pdf" class="download-resume" download="saitharun_resume.pdf">
+            Download Full Resume
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sai-tharun-g-b56449246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">LinkedIn</a>
+            <a href="https://github.com/Saitharun1428" class="social-link">GitHub</a>
+            <a href="mailto:saitharun142814@gmail.com" class="social-link">Email</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Sai Tharun G. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
